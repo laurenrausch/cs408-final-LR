@@ -31,4 +31,6 @@ I think once I meet most if not all of the goals I have suggested above, I would
 
 TODO: Replace the wireframe below with you own design.
 
-![wireframe](wireframe-example.png)
+![wireframe](framework.png)
+![wireframe](framework_2.png)
+![wireframe](framework_3.png)
