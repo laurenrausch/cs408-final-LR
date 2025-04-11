@@ -1,4 +1,4 @@
-# CS 408 Final Project: Recipe WebPage (Name to Be Updated)
+# CS 408 Final Project: Recipes of Your Own
 
 ## Project Specifications
 
