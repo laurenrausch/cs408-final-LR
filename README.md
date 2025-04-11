@@ -11,7 +11,7 @@ The rest of the webpage will have the full catalogue that the users can browse t
 ### A few other questions to address: 
 
 #### What is the general theme? 
-The general theme is to be a cookbook in a way. A place where people who are picky or have a hard time deciding what to make or have a hard time picking meals can go and get an easy answer.
+The general theme is to be a personalized cookbook, making images and quick information easy to make choices.. A place where people who are picky or have a hard time deciding what to make or have a hard time picking meals can go and get an easy answer.
 
 #### What is it going to do? 
 Help users discover new recipes or help users to be able to find meals that are fitting their needs. Opening up people to be able try new foods and expand their culinary knowledge.
