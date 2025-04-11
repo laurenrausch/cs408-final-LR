@@ -29,8 +29,6 @@ I think once I meet most if not all of the goals I have suggested above, I would
 
 ## Project Wireframe
 
-TODO: Replace the wireframe below with you own design.
-
-![wireframe](framework.png)
-![wireframe](framework_2.png)
-![wireframe](framework_3.png)
+![wireframe1](framework.PNG)
+![wireframe2](framework_2.PNG)
+![wireframe3](framework_3.PNG)
