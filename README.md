@@ -29,6 +29,13 @@ I think once I meet most if not all of the goals I have suggested above, I would
 
 ## Project Wireframe
 
+### Home Page
 ![wireframe1](framework.PNG)
 ![wireframe2](framework_2.PNG)
 ![wireframe3](framework_3.PNG)
+
+### Add A Recipe 
+![wireframe3](add_a_recipe.PNG)
+
+### Recipe Catalogue
+
