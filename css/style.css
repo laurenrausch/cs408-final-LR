@@ -3,6 +3,10 @@ h1 {
   white-space: nowrap;
 }
 
+body {
+  background-color: #f8f2dd;
+}
+
 .main_logo {
   font-family: 'Brush Script MT', cursive;
   font-size: 1.9rem;
@@ -14,6 +18,8 @@ nav {
   top: 0;
   display: flex;
   align-items: center;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navigation_bar {
@@ -31,24 +37,25 @@ nav ul {
 
 nav a {
   color: #ffffff;
-  font-size: 5mm;
+  font-size: 4.2mm;
   text-decoration: none;
-  padding-left: 20mm;
-  padding-right: 20mm;
+  padding-left: 15mm;
+  padding-right: 15mm;
   line-height: 25px;
 }
 
 span {
   color: #ffffff;
-  padding-left: 10mm;
-  padding-right: 10mm;
+  padding-left: 5mm;
+  padding-right: 5mm;
 }
 
 .search input[type=text] {
+  display: flex;
   float: right;
   padding: 6px;
-  border: none;
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
+  border-radius: 10mm;
 }
