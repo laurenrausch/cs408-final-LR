@@ -1,4 +1,45 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+h1 {
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.main_logo {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.9rem;
+}
+
+nav {
+  background-color: #8d231c;
+  padding: .4em;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navigation_bar {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #ffffff;
+  font-size: 5mm;
+  text-decoration: none;
+  padding-left: 20mm;
+  padding-right: 20mm;
+  line-height: 25px;
+}
+
+span {
+  color: #ffffff;
+  padding-left: 10mm;
+  padding-right: 10mm;
 }
