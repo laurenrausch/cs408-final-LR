@@ -3,22 +3,35 @@ h1 {
   white-space: nowrap;
 }
 
+.main_head {
+  font-size: 2.8rem;
+  padding-left: 20mm;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_head2 {
+
+  font-size: 2.8rem;
+  padding-left: 20mm;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
 body {
   background-color: #f8f2dd;
 }
 
 .main_logo {
   font-family: 'Brush Script MT', cursive;
-  font-size: 1.9rem;
+  font-size: 2.5rem;
+  padding-left: 10mm;
 }
 
 nav {
   background-color: #8d231c;
-  padding: .4em;
   top: 0;
   display: flex;
   align-items: center;
-
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -37,11 +50,13 @@ nav ul {
 
 nav a {
   color: #ffffff;
-  font-size: 4.2mm;
+  font-size: 4mm;
   text-decoration: none;
-  padding-left: 15mm;
-  padding-right: 15mm;
+  padding-left: 6mm;
+  padding-right: 6mm;
   line-height: 25px;
+  white-space: nowrap;
+
 }
 
 span {
@@ -59,3 +74,11 @@ span {
   font-size: 17px;
   border-radius: 10mm;
 }
+
+.banner_img {
+  width: 33%;
+  padding-left: 235mm;
+  padding-bottom: 120mm;
+}
+
+.inline {}
