@@ -28,14 +28,14 @@ I think once I meet most if not all of the goals I have suggested above, I would
 ## Project Wireframe
 
 ### Home Page
-![wireframe1](framework.PNG)
-![wireframe2](framework_2.PNG)
+![wireframe1](img/framework.PNG)
+![wireframe2](img/framework_2.PNG)
 
 ### Add A Recipe 
-![wireframe3](add_a_recipe.PNG)
+![wireframe3](img/add_a_recipe.PNG)
 
 ### Recipe Catalogue
-![wireframe3](catalogue.PNG)
+![wireframe3](img/catalogue.PNG)
 
 ### Recipe Randomizer
-![wireframe3](randomizer.PNG)
+![wireframe3](img/randomizer.PNG)
