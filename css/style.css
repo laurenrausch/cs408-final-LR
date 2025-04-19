@@ -17,6 +17,12 @@ h1 {
 
 }
 
+p {
+  font-size: 7mm;
+  padding-left: 20mm;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
   background-color: #f8f2dd;
 }
@@ -75,20 +81,17 @@ span {
   border-radius: 10mm;
 }
 
+.main_section {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+
 .banner_img {
+  flex: 1;
+  width: 100%;
+  border-radius: 8px;
   width: 33%;
   padding-left: 235mm;
   padding-bottom: 120mm;
-}
-
-.main_head {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.inline {
-  display: block;
-  flex: auto;
 }
