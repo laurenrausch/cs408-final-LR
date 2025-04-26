@@ -86,6 +86,7 @@ span {
 
 .rec_search {
   width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .search input[type=text] {
@@ -129,6 +130,7 @@ textarea {
   width: 500px;
   margin-left: 10mm;
   margin-bottom: 3mm;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 
