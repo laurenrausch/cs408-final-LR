@@ -49,3 +49,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/select
 https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/file
 https://www.w3schools.com/tags/tag_textarea.asp
 https://stackoverflow.com/questions/3896537/should-i-size-a-textarea-with-css-width-height-or-html-cols-rows-attributes
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/select
+https://en.wikipedia.org/wiki/List_of_cuisines
+
