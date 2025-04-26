@@ -18,7 +18,7 @@ h1 {
 }
 
 p {
-  font-size: 7mm;
+  font-size: 6mm;
   padding-left: 20mm;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -82,7 +82,7 @@ span {
 }
 
 .main_section {
-  display: flex;
+  display: grid;
   padding: 2rem;
   gap: 2rem;
 }
@@ -93,5 +93,4 @@ span {
   border-radius: 8px;
   width: 33%;
   padding-left: 235mm;
-  padding-bottom: 120mm;
 }
