@@ -157,14 +157,11 @@ select {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.submit_recipe {
-  margin-left: 10mm;
-}
-
 button {
-  padding: 8px 25px;
+  margin-left: 10mm;
+  padding: 8px 20px;
   border-radius: 10mm;
-  size: 25px;
+  size: 20px;
   font-size: 1.2rem;
   color: #ffffff;
   background-color: #8d231c;
@@ -179,4 +176,19 @@ button {
   border: none;
   padding: 10px 10px;
   font-size: .9rem;
+}
+
+/*Recipe Randomizer*/
+
+.randomize {
+  margin-left: 65mm;
+  width: 1000px;
+  border-radius: 10mm;
+}
+
+.rand_title {
+  margin-left: 65mm;
+  font-size: 1.7em;
+  font-weight: bold;
+  text-align: center;
 }
