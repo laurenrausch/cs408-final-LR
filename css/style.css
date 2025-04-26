@@ -6,27 +6,27 @@ h1 {
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3.0rem;
-  padding-left: 20mm;
+  margin-left: 10mm;
 }
 
 .main_head {
   font-size: 2.8rem;
-  padding-left: 20mm;
+  margin-left: 10mm;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_head2 {
 
   font-size: 2.8rem;
-  padding-left: 20mm;
-  padding-right: 20mm;
+  margin-left: 10mm;
+  margin-right: 10mm;
   font-family: Arial, Helvetica, sans-serif;
 
 }
 
 p {
   font-size: 6mm;
-  padding-left: 20mm;
+  margin-left: 10mm;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -102,15 +102,31 @@ span {
   padding-left: 235mm;
 }
 
+/*Add Recipe Input and Selector Boxes*/
 label {
-  padding-left: 20mm;
+  margin-left: 10mm;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 input {
-  padding-left: 20mm;
+  width: 150mm;
+  margin-left: 10mm;
+  margin-bottom: 3mm;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.placeholder {}
+
+.ing {
+  height: 60px;
+}
+
+.inst {
+  height: 100px
 }
 
 select {
-  padding-left: 20mm;
+  margin-left: 10mm;
+  margin-bottom: 3mm;
+  font-family: Arial, Helvetica, sans-serif;
 }
