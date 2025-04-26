@@ -19,18 +19,14 @@ h3 {
   margin-left: 70mm;
 }
 
-.main_section {
-  display: flex;
-  align-items: center;
-}
 
 .main_head {
+  color: black;
   font-size: 2.8rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_head2 {
-
   font-size: 2.8rem;
   margin-right: 10mm;
   font-family: Arial, Helvetica, sans-serif;
@@ -82,6 +78,7 @@ nav {
 }
 
 nav ul {
+  font-weight: bold;
   width: 100%;
   list-style: none;
   display: flex;
@@ -127,11 +124,11 @@ span {
 }
 
 .banner_img {
-  flex: 1;
-  width: 100%;
-  border-radius: 8px;
-  width: 33%;
-  padding-left: 235mm;
+  display: flex;
+  float: inline-end;
+  width: 600px;
+  border-radius: 30px;
+  align-items: center;
 }
 
 .taco_img {
