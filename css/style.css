@@ -181,14 +181,21 @@ button {
 /*Recipe Randomizer*/
 
 .randomize {
+  margin-top: 3mm;
   margin-left: 65mm;
+  padding: 3mm;
   width: 1000px;
   border-radius: 10mm;
 }
 
 .rand_title {
-  margin-left: 65mm;
+  margin-bottom: 6mm;
+  margin-left: 67mm;
   font-size: 1.7em;
   font-weight: bold;
   text-align: center;
+}
+
+.rand_button {
+  margin-left: 65mm;
 }
