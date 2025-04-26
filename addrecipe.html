@@ -29,21 +29,95 @@
         </div>
     </nav>
     <main>
-        <h1>Let's Add a Recipe:</h1>
+        <h2>Let's Add a Recipe:</h2>
         <p>Although we have a vast catalogue, there are always new recipes that can be added! Just fill out the form
             below to add to our catalogue!</p>
 
         <label for="name">Name of Recipe:</label>
-        <input type="text" id="name" placeholder="Type here" required>
         <br>
+        <input type="text" id="name" placeholder="Type here" required>
+
+        <br>
+
         <label for="prep-time">Estimated Prep Time:</label>
-        <input type="text" id="prep-time" placeholder="00:00" required>
         <br>
-        <label for="name">Ingredients</label>
-        <input type="text" id="name" placeholder="Type here" required>
-        <br>
-        <label for="prep-time">Instructions</label>
         <input type="text" id="prep-time" placeholder="00:00" required>
+
+        <br>
+
+        <label for="ingredients">Ingredients:</label>
+        <br>
+        <input type="text" id="name" placeholder="1 cup of flour, 1/2 cup of sugar,...etc." required>
+
+        <br>
+
+        <label for="instrucions">Instructions:</label>
+        <br>
+        <input type="text" id="prep_time" placeholder="Start by combining..." required>
+
+        <br>
+
+        <label for="Tags">Add Tags:</label>
+        <br>
+        <input type="text" id="prep_time" placeholder="Start by combining..." required>
+
+        <br>
+
+        <label for="dish_type">What Type of Dish is This:</label>
+        <br>
+        <select id="dish_type">
+            <option>Select...</option>
+        </select>
+
+        <br>
+
+        <label for="meal_time">When do you eat this dish?:</label>
+        <br>
+        <select id="meal_time">
+            <option>Select...</option>
+        </select>
+
+        <br>
+
+        <label>Upload Image:</label>
+        <br>
+        <div class="upload_image">
+            <input type="file" id="upload" accept="image/png, image/jpeg">
+            <button type="button" class="upload_button">Upload</button>
+        </div>
+
+        <br>
+
+        <button type="submit" class="submit_recipe">Submit</button>
+        </form>
     </main>
+
+    <footer>
+        <div class="footer">
+            <div class="left">
+                <h3>Recipe WebPage</h3>
+                <p>© Copyright CS408 Final Spring 2025 - Lauren Rausch</p>
+            </div>
+            <div class="menu">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#">Add a Recipe</a></li>
+                    <li><a href="#">Recipe Catalogue</a></li>
+                    <li><a href="#">Recipe Randomizer</a></li>
+                </ul>
+            </div>
+            <div class="faq">
+                <h4>FAQ</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">How does the randomizer work?</a></li>
+                    <li><a href="#">How do I add to the catalogue?</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
     </div>
 </body>
+
+</html>

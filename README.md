@@ -45,3 +45,5 @@ I think once I meet most if not all of the goals I have suggested above, I would
 
 https://stackoverflow.com/questions/3308365/css-no-text-wrap
 https://www.w3schools.com/howto/howto_css_searchbar.asp
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/select
+https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/file
