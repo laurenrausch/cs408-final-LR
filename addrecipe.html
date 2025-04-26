@@ -25,12 +25,13 @@
         </ul>
 
         <div class="search">
-            <input type="text" placeholder="Search...">
+            <input class="rec_search" type="text" placeholder="Search...">
         </div>
     </nav>
     <main>
         <h2>Let's Add a Recipe:</h2>
-        <p>Although we have a vast catalogue, there are always new recipes that can be added! Just fill out the form
+        <p class="recipe_p">Although we have a vast catalogue, there are always new recipes that can be added! Just fill
+            out the form
             below to add to our catalogue!</p>
 
         <label for="name">Name of Recipe:</label>
@@ -41,25 +42,26 @@
 
         <label for="prep-time">Estimated Prep Time:</label>
         <br>
-        <input type="text" id="prep-time" placeholder="00:00" required>
+        <input type="text" id="prep-time" placeholder="1 hour and 20 minutes...etc." required>
 
         <br>
 
         <label for="ingredients">Ingredients:</label>
         <br>
-        <input class="ing" type="text" id="name" placeholder="1 cup of flour, 1/2 cup of sugar,...etc." required>
+        <textarea class="ing" type="text" id="ingredients" placeholder="1 cup of flour, 1/2 cup of sugar,...etc."
+            required></textarea>
 
         <br>
 
         <label for="instrucions">Instructions:</label>
         <br>
-        <input class="inst" type="text" id="prep_time" placeholder="Start by combining..." required>
+        <textarea class="inst" type="text" id="instructions" placeholder="Start by combining..." required></textarea>
 
         <br>
 
         <label for="Tags">Add Tags:</label>
         <br>
-        <input type="text" id="prep_time" placeholder="Start by combining..." required>
+        <input type="text" id="tags" placeholder="Spicy..." required>
 
         <br>
 
@@ -67,6 +69,7 @@
         <br>
         <select id="dish_type">
             <option>Select...</option>
+
         </select>
 
         <br>
@@ -82,8 +85,7 @@
         <label>Upload Image:</label>
         <br>
         <div class="upload_image">
-            <input type="file" id="upload" accept="image/png, image/jpeg">
-            <button type="button" class="upload_button">Upload</button>
+            <input class="up_image" type="file" id="upload" accept="image/png, image/jpeg">
         </div>
 
         <br>
