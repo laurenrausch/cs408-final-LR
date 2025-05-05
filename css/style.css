@@ -5,7 +5,7 @@ h1 {
 
 h2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3.0rem;
+  font-size: 3.8rem;
   margin-left: 30mm;
 }
 
@@ -31,7 +31,7 @@ h3 {
 
 p {
   font-size: 6mm;
-  margin-left: 10mm;
+  margin-left: 30mm;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -120,7 +120,7 @@ span {
   border-radius: 30px;
   align-items: center;
   margin: 5mm;
-  margin-left: 450px;
+  margin-left: 400px;
 }
 
 .taco_img {
@@ -215,7 +215,7 @@ select {
 
 .randomize {
   margin-top: 3mm;
-  margin-left: 65mm;
+  margin-left: 115mm;
   padding: 3mm;
   width: 1000px;
   border-radius: 10mm;
@@ -225,14 +225,14 @@ select {
 
 .rand_title {
   margin-bottom: 6mm;
-  margin-left: 67mm;
+  margin-left: 117mm;
   font-size: 1.7em;
   font-weight: bold;
   text-align: center;
 }
 
 .rand_button {
-  margin-left: 65mm;
+  margin-left: 230mm;
 }
 
 /* Table styling */
