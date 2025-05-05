@@ -49,7 +49,7 @@
                     <th>Instructions:</th>
                     <th>Recipe Tags:</th>
                     <th>Time to Eat:</th>
-                    <th>Action:</th>
+
                 </tr>
             </thead>
             <tbody id="body">
@@ -58,8 +58,42 @@
         </table>
         <br>
 
-        <button class="rand_button">Randomize!</button>
+        <button class="rand_button" id="rand">Randomize!</button>
         <br>
+
+
+        <script>
+
+            async function fetchData() {
+                try {
+                    const response = await fetch('https://fvpls0zaw0.execute-api.us-east-2.amazonaws.com/recipes');
+                    const data = await response.json();
+
+                    const tableBody = document.getElementById('body');
+                    tableBody.innerHTML = '';
+
+                    data.forEach(recipe => {
+                        console.log(recipe);
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                        <td>${recipe.name}</td>
+                        <td>${recipe.prepTime}</td>
+                        <td>${recipe.dishType}</td>
+                        <td>${recipe.ingredients}
+                        <td>${recipe.instructions}</td>
+                        <td>${recipe.tags}</td>
+                        <td>${recipe.mealTime}</td>
+                    `;
+                        tableBody.appendChild(row);
+                    });
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                }
+            }
+
+            document.getElementById("rand").addEventListener('click', fetchData);
+        </script>
+
 
     </main>
     <hr>

@@ -53,3 +53,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/select
 https://en.wikipedia.org/wiki/List_of_cuisines
 https://stackoverflow.com/questions/489340/vertically-align-text-next-to-an-image
 
+https://sugarspunrun.com/mozzarella-sticks-recipe/
+https://www.allrecipes.com/recipe/21014/good-old-fashioned-pancakes/
+
