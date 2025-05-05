@@ -42,6 +42,7 @@
                 <th>Recipe Time:</th>
                 <th>Recipe Type:</th>
                 <th>Recipe Tags:</th>
+                <th>Time to Eat:</th>
                 <th>Action:</th>
             </tr>
         </thead>
@@ -50,7 +51,7 @@
         </tbody>
     </table>
     <br>
-    <button id="load_data">Load Catalogue</button>
+    <button class="load" id="load_data">Load Catalogue</button>
 
     <script>
 
@@ -69,6 +70,7 @@
                     <td>${recipe.prepTime}</td>
                     <td>${recipe.dishType}</td>
                     <td>${recipe.tags}</td>
+                    <td>${recipe.mealTime}</td>
                     <td><button class="delete" onclick="deleteItem('${recipe.id}')">Delete</button></td>
                 `;
                     tableBody.appendChild(row);

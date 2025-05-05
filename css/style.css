@@ -116,25 +116,33 @@ span {
 .banner_img {
   display: flex;
   float: inline-end;
-  width: 670px;
+  width: 530px;
   border-radius: 30px;
   align-items: center;
-  margin: 5mm;
-  margin-left: 400px;
+  position: relative;
+  margin: 0;
+  top: 53%;
+  left: 19.5%
 }
 
 .taco_img {
   width: 350px;
   height: 240px;
   border-radius: 30px;
-  margin-left: 125mm;
+  position: relative;
+  margin: 0;
+  top: 50%;
+  left: 24.5%;
 }
 
 .food_img {
   width: 350px;
   height: 240px;
   border-radius: 30px;
-  margin-left: 81mm;
+  position: relative;
+  margin: 0;
+  top: 50%;
+  left: 41.5%
 }
 
 button {
@@ -150,13 +158,17 @@ button {
 }
 
 .gotocat {
-  margin-top: 5mm;
-  margin-left: 145mm;
+  position: relative;
+  margin: 0;
+  top: 50%;
+  left: 64.5%;
 }
 
 .gotorand {
-  margin-top: 5mm;
-  margin-left: 122mm;
+  position: relative;
+  margin: 0;
+  top: 50%;
+  left: 18.7%;
 }
 
 /*Add Recipe Input and Selector Boxes*/
@@ -210,6 +222,16 @@ select {
   padding: 10px 10px;
   font-size: .9rem;
 }
+
+/* Catalogue */
+
+.load {
+  position: relative;
+  margin: 0;
+  top: 50%;
+  left: 48%;
+}
+
 
 /*Recipe Randomizer*/
 
