@@ -124,7 +124,9 @@
 
     <script>
         document.getElementById("send_data").onclick = function () {
-            const name = document.getElementById("name").value;
+
+
+            const id = document.getElementById("name").value;
             const prepTime = document.getElementById("prep-time").value;
             const ingredients = document.getElementById("ingredients").value;
             const instructions = document.getElementById("instructions").value;
@@ -132,20 +134,21 @@
             const dishType = document.getElementById("dish_type").value;
             const mealTime = document.getElementById("meal_time").value;
 
-            console.log({ name, prepTime, ingredients, instructions, tags, dishType, mealTime });
-
+            console.log({
+                id, name: id, prepTime, ingredients, instructions, tags, dishType, mealTime
+            });
             let xhr = new XMLHttpRequest();
             xhr.open("PUT", "https://fvpls0zaw0.execute-api.us-east-2.amazonaws.com/recipes");
             xhr.setRequestHeader("Content-Type", "application/json");
             xhr.send(JSON.stringify({
-                id: name, // Assuming `id` = `name`
-                name,
-                prepTime,
-                ingredients,
-                instructions,
-                tags,
-                dishType,
-                mealTime
+                "id": id,
+                "name": id,
+                "prepTime": prepTime,
+                "ingredients": ingredients,
+                "instructions": instructions,
+                "tags": tags,
+                "dishType": dishType,
+                "mealTime": mealTime
             }));
 
             document.getElementById("name").value = "";

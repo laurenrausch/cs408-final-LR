@@ -41,6 +41,7 @@
                 <th>Recipe Name:</th>
                 <th>Recipe Time:</th>
                 <th>Recipe Type:</th>
+                <th>Ingredients:</th>
                 <th>Recipe Tags:</th>
                 <th>Time to Eat:</th>
                 <th>Action:</th>
@@ -64,11 +65,14 @@
                 tableBody.innerHTML = '';
 
                 data.forEach(recipe => {
+                    console.log(recipe);
                     const row = document.createElement('tr');
                     row.innerHTML = `
                     <td>${recipe.name}</td>
                     <td>${recipe.prepTime}</td>
                     <td>${recipe.dishType}</td>
+                    <td>${recipe.ingredients}
+                    <td>${recipe.instructions}</td>
                     <td>${recipe.tags}</td>
                     <td>${recipe.mealTime}</td>
                     <td><button class="delete" onclick="deleteItem('${recipe.id}')">Delete</button></td>
