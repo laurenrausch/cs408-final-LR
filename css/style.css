@@ -6,17 +6,17 @@ h1 {
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3.0rem;
-  margin-left: 10mm;
+  margin-left: 30mm;
 }
 
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3.0rem;
-  margin-left: 10mm;
+  margin-left: 30mm;
 }
 
 .head2 {
-  margin-left: 70mm;
+  margin-left: 130mm;
 }
 
 .main_head {
@@ -42,11 +42,11 @@ p {
 }
 
 .p2 {
-  margin-left: 100mm;
+  margin-left: 165mm;
 }
 
 .p3 {
-  margin-left: 140mm;
+  margin-left: 210mm;
 }
 
 body {
@@ -56,7 +56,7 @@ body {
 .main_logo {
   font-family: 'Brush Script MT', cursive;
   font-size: 2.5rem;
-  padding-left: 10mm;
+  padding-left: 20mm;
 }
 
 nav {
@@ -116,25 +116,25 @@ span {
 .banner_img {
   display: flex;
   float: inline-end;
-  width: 500px;
+  width: 670px;
   border-radius: 30px;
   align-items: center;
   margin: 5mm;
-  margin-left: 200px;
+  margin-left: 450px;
 }
 
 .taco_img {
-  width: 290px;
-  height: 220px;
+  width: 350px;
+  height: 240px;
   border-radius: 30px;
-  margin-left: 70mm;
+  margin-left: 125mm;
 }
 
 .food_img {
-  width: 290px;
-  height: 220px;
+  width: 350px;
+  height: 240px;
   border-radius: 30px;
-  margin-left: 100mm;
+  margin-left: 81mm;
 }
 
 button {
@@ -151,7 +151,7 @@ button {
 
 .gotocat {
   margin-top: 5mm;
-  margin-left: 85mm;
+  margin-left: 145mm;
 }
 
 .gotorand {
