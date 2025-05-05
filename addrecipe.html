@@ -118,9 +118,45 @@
 
         <br>
 
-        <button type="submit" class="submit_recipe">Submit</button>
+        <button type="submit" id="send_data">Submit</button>
         <br>
     </main>
+
+    <script>
+        let currentId = 1;
+        document.getElementById("send_data").onclick = function () {
+
+            const id = document.getElementById("name").value;
+            const prepTime = document.getElementById("prep-time").value;
+            const ingredients = document.getElementById("ingredients").value;
+            const instructions = document.getElementById("instructions").value;
+            const tags = document.getElementById("tags").value;
+            const dishType = document.getElementById("dish_type").value;
+            const mealTime = document.getElementById("meal_time").value;
+
+            let xhr = new XMLHttpRequest();
+            xhr.open("PUT", "https://fvpls0zaw0.execute-api.us-east-2.amazonaws.com/recipes");
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.send(JSON.stringify({
+                "id": id,
+                "name": id,
+                "prepTime": prepTime,
+                "ingredients": ingredients,
+                "instructions": instructions,
+                "tags": tags,
+                "dishType": dishType,
+                "mealTime": mealTime
+            }));
+
+            document.getElementById("name").value = "";
+            document.getElementById("prep-time").value = "";
+            document.getElementById("ingredients").value = "";
+            document.getElementById("instructions").value = "";
+            document.getElementById("tags").value = "";
+            document.getElementById("dish_type").value = "Select...";
+            document.getElementById("meal_time").value = "Select...";
+        }
+    </script>
 
     <hr>
     <footer>

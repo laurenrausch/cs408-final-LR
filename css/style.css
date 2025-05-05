@@ -234,3 +234,37 @@ select {
 .rand_button {
   margin-left: 65mm;
 }
+
+/* Table styling */
+
+table {
+  text-align: center;
+  border-color: #f8f2dd;
+  border-style: double;
+  border-collapse: collapse;
+  color: #272624;
+  width: 70%;
+  margin: 0px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+th,
+td {
+  border-collapse: collapse;
+  border-color: rgb(170, 20, 15);
+  border-style: double;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+tr {
+  text-align: center;
+}
+
+th {
+  background-color: #f8f2dd;
+  color: rgb(19, 19, 19);
+  padding-right: 13px;
+}
